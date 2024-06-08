@@ -1,6 +1,7 @@
 function alphabetPosition(alpha) {
-    let yap = alpha.toString().split("").filter(i => /[a-zA-z]/.test(i)).map(i => i.toLowerCase().charCodeAt(0) - 96)
-    return console.log(yap);
+    let yap = alpha.toString().split("").filter(i => /[a-zA-Z]/.test(i)).map(i => i.toLowerCase().charCodeAt(0) - 96).join(" ");
+    console.log(yap);
+    return yap;
 }
 alphabetPosition("Cucumber $0.79")
 
