@@ -4,6 +4,6 @@ function getCount(str) {
     console.log(str.toString().split("").filter(i => vowels.includes(i)))
     return console.log(str.toString().split("").filter(i => vowels.includes(i)).length)
 }
-getCount("Baba Ganoush")
+getCount("Prisoner of Azkaban")
 // Return the number (count) of vowels in the given string.
 // We will consider a, e, i, o, u as vowels (but not y).
