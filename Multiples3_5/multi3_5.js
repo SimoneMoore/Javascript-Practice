@@ -10,7 +10,7 @@ function solution(num){
                 sum= sum + i;
         } else if (i%5 === 0) {
                 console.log("its 5 dingus");
-                sum = sum + i;
+                sum= sum + i;
         }
     }
     return sum;
