@@ -16,7 +16,6 @@ function solution(num){
     return sum;
 }
 console.log(solution(10))
-
 // Finish the solution so that it return the sum of all the natural numbers that are multiples of 3 or 5 below the number passed in.
 // Additionally, if the number is negative, return 0. Exclusive
 // Note: If the number is a multiple of both 3 and 5, only count it once.
