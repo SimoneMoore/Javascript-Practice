@@ -1,7 +1,8 @@
-function alphabetPosition(yap) {
-    let 
-    return yap;
-  }
+function alphabetPosition(alpha) {
+    let yap = alpha.toString().split("").filter(i => /[a-zA-z]/.test(i)).map(i => i.toLowerCase().charCodeAt(0) - 96)
+    return console.log(yap);
+}
+alphabetPosition("Cucumber $0.79")
 
 //   In this kata you are required to, given a string, replace every letter with its position in the alphabet.
 
