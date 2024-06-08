@@ -6,5 +6,5 @@ function disemvowel(troll) {
     return cleanse;
 }
 
-disemvowel("You're not that smart anyway.")
+disemvowel("You are not that smart anyway.")
 // Your task is to write a function that takes a string and return a new string with all vowels removed.
