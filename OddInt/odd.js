@@ -36,6 +36,6 @@ function find(odd) {
     console.log(result)
     return parseInt(result);
   }
-find([23,45,2,7,6,22,12,56,77,6])
+find([23,22,6,22,56,56,6])
 // Given an array of integers, find the one that appears an odd number of times.There will always be only one integer that appears an odd number of times.
 
